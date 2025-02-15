@@ -24,6 +24,7 @@ Usage
 git clone https://github.com/{YourUsername}/alu_regex-data-extraction.git
 
 
+
 2. in your terminal, navigate to the project folder:
 
  cd alu_regex-data-extraction
