@@ -1,4 +1,4 @@
-import text from "./01_data-extraction.js";
+import text from ".01_data-extraction.js";
 
 const emailRegex = /(?<= )[^ ]+@.+?(?= )/g
 const emails = text.match(emailRegex)
