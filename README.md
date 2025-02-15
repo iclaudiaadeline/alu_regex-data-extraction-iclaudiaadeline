@@ -1,15 +1,28 @@
-ALU Regex Data Extraction
+Regex Data Extraction
 
-Project Overview
+this java script is designed to extract structured data from  a given text file using regular expressions. this script can extract the following types of data.
 
-Regular expression or Regex is the process of extracting structured data from a large source of text data. In other words, it enables us to match and extract specific types of data like emails, URLs, phone numbers, credit card numbers, timestamp, HTML tags, hashtags, and currency amounts, quickly and in an efficient manner.
+- Email addresses  
+- URLs  
+- Phone numbers (various formats)  
+- Credit card numbers  
+- Time (12-hour & 24-hour format)  
+- HTML tags  
+- Hashtags  
+- Currency amounts  
 
-Key Features:
+Requirements
 
-*More Accurate Data Extraction: It employs well written regex patterns to extract data as expected.
+To run this script, ensure you have **Node.js** installed on your machine. 
+Dependencies
+The script uses JavaScript's built-in `RegExp` methods, so there are no additional dependencies.
 
-*Supports Multiple Formats: Allows multiple formats for every data type (e.g., different styles for phone numbers, several currencies).
+Usage
 
-*Filters out too many invalid patterns (edge case handling)
-
-*Simple and Scalable: Can compose to form  larger applications for data processing and validation.
+1. after creating repository the first thing you have to do is to Clone the Repository
+ 
+git clone https://github.com/{YourUsername}/alu_regex-data-extraction.git
+2. in your terminal, navigate to the project folder:
+ cd alu_regex-data-extraction
+3. To run the script , use the following command, passing the file path as an argument:
+node extractData.js
