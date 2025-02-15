@@ -23,6 +23,10 @@ Usage
  
 git clone https://github.com/{YourUsername}/alu_regex-data-extraction.git
 2. in your terminal, navigate to the project folder:
+
  cd alu_regex-data-extraction
+
+
 3. To run the script , use the following command, passing the file path as an argument:
+
 node extractData.js
